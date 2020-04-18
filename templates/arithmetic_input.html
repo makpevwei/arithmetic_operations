@@ -1,0 +1,85 @@
+<!--
+author: Michael Akpevwe
+-->
+
+<html>
+  <head>
+    <style>
+      body{
+        background-color: #404040;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      }
+      div.form{
+        box-shadow: 2px 2px 30px #1a1a1a;
+        width: 45vw;
+        background-color: #bfbfbf;
+        text-align: center;
+        border-left-color: #a6a6a6;
+      }
+      table{
+        font-size: 10px;
+        box-shadow: 2px 2px 30px #1a1a1a;
+        padding: 15px;
+        background-color: #bfbfbf;
+        width: 420px;
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: #ffff00;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+      }
+      form{
+        border-left-style: solid;
+        border-color: #ffff00;
+        border-left-width: 5px;
+        padding: 15px;
+      }
+      h1{
+        color: #f2f2f2;
+        text-align: center;
+      }
+      input[type=text]{
+        text-align: center;
+        width: 200px;
+        height: 30px;
+        border: 0px;
+      }
+      input[type=submit]{
+        background-color: #ffff00;
+        width: 90px;
+        height: 30px;
+        border: 0px;
+      }
+      input[type=submit]:hover{
+        box-shadow: 2px 4px 20px #666666;
+      }
+      span{
+        color: #ffffff;
+      }
+      td{
+        color: #595959;
+      }
+      td.heading{
+        width: 50px;
+      }
+    </style>
+    <title>Arithmetic Operation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Arithmetic Operation</h1>
+    <center>
+    <div class="form">
+    <form action="/addition" method="post">
+      Enter first and second number to compute addition<br><br>
+      <input type="text" name="fn" placeholder="First Number" autofocus required><br><br>
+      <input type="text" name="sn" placeholder="Second Number" required><br><br>
+      <input type="submit" value="Submit">
+  </div>
+</center>
+</body>
+</html>
